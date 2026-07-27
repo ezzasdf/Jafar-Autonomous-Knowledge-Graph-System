@@ -1,0 +1,21 @@
+# Minimal requirements for basic functionality
+# These are the core packages needed for the system to work
+
+# Core dependencies
+numpy==2.4.6
+click==8.4.1
+tqdm==4.68.1
+psutil==7.2.2
+typing-extensions==4.15.0
+faiss-cpu==1.14.2
+scikit-learn==1.9.0
+
+# Optional dependencies (install these for full functionality)
+# sentence-transformers==5.5.1  # For text embeddings
+# torch==2.12.0                  # For PyTorch
+# transformers==5.10.2           # For local LLM generation
+# PyMuPDF==1.27.2.3              # For PDF processing
+# python-docx==1.2.0             # For Word documents
+# opencv-python-headless==4.13.0.92  # For image processing
+# easyocr==1.7.2                 # For OCR
+# Pillow==12.2.0                 # For image handling
